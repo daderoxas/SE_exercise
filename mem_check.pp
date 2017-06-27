@@ -44,7 +44,7 @@ class puppet{
 
 
 	cron { 'memcheck': 
-		command => 'sh /home/monitor/src/my_memory_check -w 60 -c 90 -e danthony0209@gmail.com',
+		command => 'sh /home/monitor/src/my_memory_check -c 90 -w 60 -e danthony0209@gmail.com',
 		user => 'root',
 		minute => '*/10',
 	}
