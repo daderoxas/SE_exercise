@@ -1,13 +1,16 @@
 class puppet{
 	package{ 'vim': 
+		name => 'vim',
 		ensure => 'installed',
 	}
 	
 	package{ 'curl':
+		name => 'curl',
 		ensure => 'installed',
 	}
 
 	package{ 'git' :
+		name=> 'git',
 		ensure => 'installed',
 	}
 
